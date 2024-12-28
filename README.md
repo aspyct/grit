@@ -2,6 +2,8 @@
 
 `grit` is a utility to download pictures from Ricoh GR cameras, and is also compatible with other recent Ricoh/Pentax cameras like the K3 III.
 
+**Important note**: I am not in any way affiliated to Ricoh/Pentax. This is an unofficial tool, use at your own risk etc.
+
 ## Quickstart
 
 First, install `grit` with cargo:
