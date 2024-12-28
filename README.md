@@ -32,15 +32,23 @@ The end goal of this project is to have a raspberry pi listening for live camera
 
 So here's that part of the project :)
 
-## Supported Cameras
+## FAQ
 
-I tested `grit` with the following cameras:
+### Which cameras are supported?
+
+I'm testing with my own cameras:
 
 - Ricoh GR IIIx
 - Ricoh GR III HDF
 - Pentax K3 III Monochrome
 
 If you have other wifi-enabled Ricoh/Pentax cameras, additional testing is welcome :)
+
+### What if I'm using multiple cameras?
+
+`grit` will pull images from the camera to which your computer is connected via wifi. So all you need to do is to connect to another camera and you're good to go.
+
+That being said, it's also a good idea to tweak the filenames for each camera, in (Menu > Setup > 1. File Settings > File Name).
 
 ## License?
 
