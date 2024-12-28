@@ -1,0 +1,19 @@
+[package]
+name = "grit"
+description = "GR Image Transfer utility"
+version = "0.1.0"
+edition = "2021"
+
+readme = "README.md"
+license = "GPL-3.0-only"
+homepage = "https://github.com/aspyct/grit"
+repository = "https://github.com/aspyct/grit"
+keywords = ["camera", "photography", "transfer", "backup", "wifi"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bytes = "1.9.0"
+reqwest = { version = "0.12.11", features = ["blocking", "json"] }
+serde = { version = "1.0.217", features = ["derive"] }
